@@ -1,0 +1,19 @@
+Introduction to the Dataset
+The dataset used in this project is the Credit Default dataset, which contains information about customers and whether they defaulted on a loan. The dataset includes the following columns:
+
+Income: Annual income of the customer.
+Age: Age of the customer.
+Loan: Loan amount taken by the customer.
+Loan to Income: Ratio of loan amount to annual income.
+Default: Indicates if the customer defaulted on the loan (1 for Yes, 0 for No).
+The dataset comprises 2000 entries, each representing a specific customer's financial attributes.
+
+Project Description
+The goal of this project is to develop a predictive model to determine whether a customer will default on a loan based on their financial data. The project involves the following steps:
+
+Data Import and Initial Exploration: Load the dataset and explore its properties such as shape, data types, and summary statistics.
+Feature Selection and Target Definition: Identify the target variable (Default) and select relevant features (Income, Age, Loan, Loan to Income) for the predictive model.
+Train-Test Split: Split the dataset into training and testing sets to evaluate model performance.
+Model Selection: Choose a Logistic Regression model for prediction.
+Model Training: Train the model on the training data.
+Prediction and Evaluation: Use the trained model to predict defaults on the test data and evaluate the model's performance using metrics like confusion matrix, accuracy score, and classification report.

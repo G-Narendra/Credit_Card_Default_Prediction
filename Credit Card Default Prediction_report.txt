@@ -1,0 +1,39 @@
+Final Report
+
+Model Training and Results
+
+After defining the target variable (Default) and selecting relevant features (Income, Age, Loan, Loan to Income), the dataset was split into training (70%) and testing (30%) sets. A Logistic Regression model was chosen and trained on the training data.
+
+The model training and prediction yielded the following results:
+
+Predicted values: An array of predicted default values (0 or 1).
+Model Evaluation
+
+The performance of the model was evaluated using the following metrics:
+
+Confusion Matrix:
+
+[[506,  13],
+ [ 17,  64]]
+Accuracy Score: 0.95
+Classification Report:
+
+              precision    recall  f1-score   support
+
+         0       0.97      0.97      0.97       519
+         1       0.83      0.79      0.81        81
+
+  accuracy                           0.95       600
+ macro avg       0.90      0.88      0.89       600
+weighted avg 0.95 0.95 0.95 600
+
+
+These results indicate that the model has an accuracy of 95%, with a recall of 97% for "No Default" and 79% for "Default." The precision is higher for "No Default" (97%) compared to "Default" (83%).
+
+**Conclusion**
+
+The Logistic Regression model shows high performance in predicting loan defaults. The model's effectiveness can be attributed to the well-defined features and the simplicity of logistic regression. Further improvements could involve exploring additional features, tuning model parameters, or employing more complex algorithms to enhance predictive accuracy.
+
+---
+
+These documents should cover the content in a plain text format as requested.
